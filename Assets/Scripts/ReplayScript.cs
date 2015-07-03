@@ -34,7 +34,7 @@ public class ReplayScript : MonoBehaviour
 	static IEnumerator loadLevel()
 	{
 		//Wait for 3 seconds before loading
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds(1);
 		Application.LoadLevel (11);
 		
 	}
